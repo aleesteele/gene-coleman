@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {Router, Route, IndexRoute, browserHistory, Redirect} from 'react-router';
+import '../index.js';
+import {Router, Route, IndexRoute, browserHistory, hashHistory, Redirect} from 'react-router';
 import {Provider} from 'react-redux';
 import {createStore, applyMiddleware} from 'redux';
 import reduxPromise from 'redux-promise';
@@ -29,5 +30,8 @@ router = (<Provider store={store}>
     </Router>
 </Provider>)
 
-ReactDOM.render(router, document.getElementById('root'));
+ReactDOM.render(
+    router,
+    document.getElementById('root')
+);
 registerServiceWorker();

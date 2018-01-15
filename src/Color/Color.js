@@ -6,7 +6,7 @@ class Color extends Component {
         console.log('inside Color component');
         return (
             <div className="Color">
-
+                <p>This is where the color series will go...</p>
             </div>
         );
     }

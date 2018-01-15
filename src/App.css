@@ -1,24 +1,29 @@
 .App {
-
+    padding: 5px;
 }
 
 .App-header {
-    height: 20%;
-    padding: 10px;
+    height: 10%;
+    /* padding: 5px; */
     color: white;
     display: flex;
 }
 
 .App-title {
     text-align: left;
-    font-size: 50px;
     width: 90%;
-    line-height: 20px;
+    height: 100%;
 }
 
-.App-subtitle {
+/* .App-subtitle {
     text-align: left;
     font-size: 20px;
+} */
+
+.App-title-name {
+    font-size: 60px;
+    padding: 0px;
+    line-height: 0px;
 }
 
 .App-nav {
@@ -29,8 +34,22 @@
 .App-nav-link {
     width: 100%;
     height: 10%;
+    line-height: 10px;
+    padding: 5px;
+
 }
 
 .App-content {
     height: 80%;
+}
+
+.App-footer {
+    font-size: 10px;
+    text-align: right;
+    bottom: 5px;
+    position: absolute;
+}
+
+a:hover {
+    cursor: pointer
 }

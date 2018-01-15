@@ -24,7 +24,7 @@ class App extends Component {
         return (<div className="App">
             <header className="App-header">
                 <div className="App-title">
-                    <Link to="/"><h1 className="App-title">Gene Coleman</h1></Link>
+                    <Link to="/"><h1 className="App-title-name">Gene Coleman</h1></Link>
                     {/* <Link to="/"><h2 className="App-subtitle">Photography by Gene Coleman</h2></Link> */}
                 </div>
                 <div className="App-nav">
@@ -37,7 +37,7 @@ class App extends Component {
             <div className="App-content">
                 { children }
             </div>
-            <footer className="App-footer"></footer>
+            <footer className="App-footer">Built by <Link to="http://aleesteele.com">Anne Lee Steele</Link></footer>
         </div>);
     }
 }

@@ -1,0 +1,27 @@
+.About {
+    display: flex;
+    /* position: absolute; */
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.About-photo-wrapper {
+    width: 50%;
+}
+
+.About-photo-img {
+    width: 100%;
+}
+
+.About-text-wrapper {
+    width: 50%;
+    margin: 10px;
+    overflow: hidden;
+    /* position: static; */
+
+}
+
+.About-text-p {
+    /* max-width: 80 */
+    font-size: 10px;
+}
