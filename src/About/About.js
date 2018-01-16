@@ -25,8 +25,6 @@ class About extends Component {
                         <br/><br/>
                         Ut et ipsum est. Duis auctor purus tellus, nec commodo urna finibus ut. Morbi vel malesuada ante, sit amet malesuada ipsum. Phasellus iaculis mauris sed porttitor ultricies. Maecenas tortor ipsum, pellentesque sed varius at, varius quis eros. Donec rutrum sollicitudin rhoncus. Nunc sodales orci et viverra malesuada. Aliquam lacinia ultricies quam, auctor faucibus ex scelerisque sit amet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis rhoncus sollicitudin enim ut tristique. Aenean posuere metus feugiat nulla maximus vestibulum. Etiam a tellus commodo, sollicitudin nulla et, maximus risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. In hac habitasse platea dictumst.
                         <br/><br/>
-                        Nulla facilisi. Sed fermentum tellus quam, vitae posuere ipsum suscipit ac. Curabitur et mi nulla. Vestibulum interdum, urna in congue aliquam, nisl erat tempus lacus, rutrum varius sem mi eleifend sapien. Mauris a vulputate est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper, justo ac rutrum egestas, ante magna semper velit, in dapibus metus enim eu mi. Fusce quis elit vel nibh euismod dictum.
-                        <br/><br/>
                     </p>
                 </div>
             </div>

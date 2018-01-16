@@ -1,79 +1,68 @@
 import React, {Component} from 'react';
-// import CarouselIndicator from './CarouselIndicator';
-// import CarouselLeftArrow from './CarouselLeftArrow';
-// import CarouselRightArrow from './CarouselRightArrow';
+import axios from 'axios';
 import CarouselSlide from './CarouselSlide';
+import InfiniteScroll from 'react-simple-infinite-scroll'
 import './Carousel.css';
 
 class Carousel extends Component {
     constructor(props) {
         super(props);
 
-        this.goToSlide = this.goToSlide.bind(this);
-        this.goToPrevSlide = this.goToPrevSlide.bind(this);
-        this.goToNextSlide = this.goToNextSlide.bind(this);
-
         this.state = {
-            activeIndex: 0
+            // photos: [],
+            // isLoading: true,
+            // cursor: 0
         };
     }
-
-    goToSlide(index) {
-        this.setState({activeIndex: index});
+    componentDidMount() {
+        this.loadMore();
     }
+    loadMore = () => {
+        this.setState({
+            isLoading: true,
+            error: undefined
+        })
 
-    goToPrevSlide(e) {
-        e.preventDefault();
+        axios.get(`/data/b&w.json`).then(res => {
+            const photos = res.data.map(obj => obj)
+            this.setState({photos});
+            console.log('new state: ', this.state);
+        });
 
-        let index = this.state.activeIndex;
-        let {slides} = this.props;
-        let slidesLength = slides.length;
-
-        if (index < 1) {
-            index = slidesLength;
-        }
-
-        --index;
-
-        this.setState({activeIndex: index});
-    }
-
-    goToNextSlide(e) {
-        e.preventDefault();
-
-        let index = this.state.activeIndex;
-        let {slides} = this.props;
-        let slidesLength = slides.length - 1;
-
-        if (index === slidesLength) {
-            index = -1;
-        }
-
-        ++index;
-
-        this.setState({activeIndex: index});
+        fetch(`https://api.example.com/v1/items?from=${this.state.cursor}`).then(res => res.json()).then(res => {
+            this.setState(state => ({
+                items: [
+                    ...state.items,
+                    ...res.items
+                ],
+                cursor: res.cursor,
+                isLoading: false
+            }))
+        }, error => {
+            this.setState({isLoading: false, error})
+        })
     }
 
     render() {
-        console.log('state inside Carousel: ', this.state)
-        console.log('props inside Carousel: ', this.props);
-        return (
-            <div className="carousel-container">
-                <div className="carousel">
-                    {/* <CarouselLeftArrow onClick={e => this.goToPrevSlide(e)}/> */}
-
-                    <ul className="carousel__slides">
-                        {this.props.slides.map((slide, index) => <CarouselSlide key={index} index={index} activeIndex={this.state.activeIndex} slide={slide}/>)}
-                    </ul>
-
-                    {/* <CarouselRightArrow onClick={e => this.goToNextSlide(e)}/> */}
-
-                    {/* <ul className="carousel__indicators">
-                        {this.props.slides.map((slide, index) => <CarouselIndicator key={index} index={index} activeIndex={this.state.activeIndex} isActive={this.state.activeIndex === index} onClick={e => this.goToSlide(index)}/>)}
-                    </ul> */}
-                </div>
+        // console.log('state inside Carousel: ', this.state)
+        // console.log('props inside Carousel: ', this.props);
+        return (<div className="carousel-container">
+            <div className="carousel">
+                {/* <InfiniteScroll
+                    throttle={100}
+                    threshold={300}
+                    isLoading={this.state.isLoading}
+                    hasMore={!!this.state.cursor}
+                    onLoadMore={this.loadMore}> */}
+                    <div className="carousel__slides">
+                        {this.props.slides.map((slide, index) => <CarouselSlide slide={slide}/>)}
+                    </div>
+                {/* </InfiniteScroll> */}
+                {/* {this.state.isLoading && (
+                    <MyLoadingState />
+                )} */}
             </div>
-    );
+        </div>);
     }
 }
 

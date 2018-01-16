@@ -7,7 +7,6 @@ import About from './About/About';
 import BlackAndWhite from './BlackAndWhite/BlackAndWhite';
 import Color from './Color/Color';
 import DearNewYorkCity from './DearNewYorkCity/DearNewYorkCity';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -21,24 +20,29 @@ class App extends Component {
     render() {
         console.log('inside App component')
         const children = React.cloneElement(this.props.children, {})
-        return (<div className="App">
-            <header className="App-header">
-                <div className="App-title">
-                    <Link to="/"><h1 className="App-title-name">Gene Coleman</h1></Link>
-                    {/* <Link to="/"><h2 className="App-subtitle">Photography by Gene Coleman</h2></Link> */}
+        return (
+            <div className="App">
+                <header className="App-header">
+                    <div className="App-title">
+                        <Link to="/">
+                            <h1 className="App-title-name">Gene Coleman</h1>
+                        </Link>
+                    </div>
+                    <div className="App-nav">
+                        <div className="App-nav-link"><Link to="/about"><h2>About</h2></Link></div>
+                        <div className="App-nav-link"><Link to="/b&w"><h2>Black & White</h2></Link></div>
+                        <div className="App-nav-link"><Link to="/color"><h2>Color</h2></Link></div>
+                        <div className="App-nav-link"><Link to="/dearnyc"><h2>Dear NYC</h2></Link></div>
+                    </div>
+                </header>
+                <div className="App-content">
+                    { children }
                 </div>
-                <div className="App-nav">
-                    <div className="App-nav-link"><Link to="/about">About</Link></div>
-                    <div className="App-nav-link"><Link to="/b&w">Black&White</Link></div>
-                    <div className="App-nav-link"><Link to="/color">Color</Link></div>
-                    <div className="App-nav-link"><Link to="/dearnyc">Dear New York City</Link></div>
-                </div>
-            </header>
-            <div className="App-content">
-                { children }
+                <footer className="App-footer">
+                    Built by <Link to="http://aleesteele.com">Anne Lee Steele</Link>
+                </footer>
             </div>
-            <footer className="App-footer">Built by <Link to="http://aleesteele.com">Anne Lee Steele</Link></footer>
-        </div>);
+        );
     }
 }
 

@@ -9,9 +9,7 @@ class Carousel extends Component {
         super(props);
 
         this.state = {
-            photos: [],
-            isLoading: true,
-            cursor: 0
+            
         };
     }
     componentDidMount() {
@@ -44,20 +42,20 @@ class Carousel extends Component {
     }
 
     render() {
-        console.log('state inside Carousel: ', this.state)
-        console.log('props inside Carousel: ', this.props);
+        // console.log('state inside Carousel: ', this.state)
+        // console.log('props inside Carousel: ', this.props);
         return (<div className="carousel-container">
             <div className="carousel">
-                <InfiniteScroll
+                {/* <InfiniteScroll
                     throttle={100}
                     threshold={300}
                     isLoading={this.state.isLoading}
                     hasMore={!!this.state.cursor}
-                    onLoadMore={this.loadMore}>
+                    onLoadMore={this.loadMore}> */}
                     <div className="carousel__slides">
                         {this.props.slides.map((slide, index) => <CarouselSlide slide={slide}/>)}
                     </div>
-                </InfiniteScroll>
+                {/* </InfiniteScroll> */}
                 {/* {this.state.isLoading && (
                     <MyLoadingState />
                 )} */}

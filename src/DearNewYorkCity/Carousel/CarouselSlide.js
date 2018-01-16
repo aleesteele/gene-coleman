@@ -1,30 +1,21 @@
 import React, {Component} from 'react';
-import './Carousel.css';
 
 class CarouselSlide extends Component {
-  render() {
-    return (
-      <li
-        className={
-          this.props.index == this.props.activeIndex
-            ? "carousel__slide carousel__slide--active"
-            : "carousel__slide"
-        }
-      >
-        <p className="carousel-slide__content">{this.props.slide.content}</p>
-
-        <p>
-          <strong className="carousel-slide__author">
-            {this.props.slide.author}
-          </strong>,
-          {" "}
-          <small className="carousel-slide__source">
-            {this.props.slide.source}
-          </small>
-        </p>
-      </li>
-    );
-  }
+    render() {
+        // console.log('props inside Carousel slide:', this.props.slide.caption);
+        return (
+            <div className="carousel-slide">
+                <div className="carousel-slide-wrapper">
+                    <div className="carousel-slide__info">
+                        <h3>{this.props.slide.caption}</h3>
+                    </div>
+                    <div className="carousel-slide__content">
+                        <img className="carousel-slide__img" src={this.props.slide.url} alt={this.props.slide.caption}/>
+                    </div>
+                </div>
+            </div>
+        );
+    }
 }
 
 export default CarouselSlide;

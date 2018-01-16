@@ -1,40 +1,41 @@
 import React, {Component} from 'react';
 import './Home.css';
 
-
 class Home extends Component {
+    constructor (props) {
+        super(props);
+
+        this.state = {
+            video: 'hGyydkPwUMc',
+            autoplay: 0,
+            rel: 0,
+            modest: 1
+        }
+    }
     render() {
         console.log('inside Home component');
 
-        return (<div className="Home">
-            {/* <div className="Home-carousel-wrapper"> */}
-                {/* <div showArrows={true}> */}
-                    {/* <div className="Home-carousel-child">
-                        <img src="/carousel/1.jpg" className="Home-carousel-img"/>
-                        <p className="legend">Legend 1</p>
-                    </div>
-                    <div className="Home-carousel-child">
-                        <img src="/carousel/2.jpg" className="Home-carousel-img"/>
-                        <p className="legend">Legend 2</p>
-                    </div>
-                    <div className="Home-carousel-child">
-                        <img src="/carousel/3.jpg" className="Home-carousel-img"/>
-                        <p className="legend">Legend 3</p>
-                    </div>
-                    <div className="Home-carousel-child">
-                        <img src="/carousel/4.jpg" className="Home-carousel-img"/>
-                        <p className="legend">Legend 4</p>
-                    </div> */}
-                    <div className="Home-carousel-child">
-                        <img src="/carousel/5.jpg" className="Home-carousel-img"/>
-                    </div>
-                {/* </div> */}
-                {/* <Carousel slides={carouselSlidesData}/> */}
-                {/* <img src="/carousel/1.jpg" className="preview-img"/> */}
-            {/* </div> */}
-        </div>);
+        var videoSrc = "https://www.youtube.com/embed/" +
+            this.state.video + "?autoplay=" +
+            this.state.autoplay + "&rel=" +
+            this.state.rel + "&modestbranding=" +
+            this.state.modest;
+
+        return (
+            <div className="Home">
+                <div className="Home-wrapper">
+                        <iframe
+                            className="player"
+                            type="text/html"
+                            width="100%"
+                            height="100%"
+                            src={videoSrc}
+                            frameBorder="0"
+                        />
+                </div>
+            </div>
+        );
     }
 }
- // onChange={onChange} onClickItem={onClickItem} onClickThumb={onClickThumb}
 
 export default Home;

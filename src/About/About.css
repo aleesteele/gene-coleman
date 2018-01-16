@@ -7,6 +7,11 @@
 
 .About-photo-wrapper {
     width: 50%;
+    /* overflow: hidden; */
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .About-photo-img {
@@ -15,13 +20,67 @@
 
 .About-text-wrapper {
     width: 50%;
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     overflow: hidden;
-    /* position: static; */
-
 }
 
 .About-text-p {
-    /* max-width: 80 */
-    font-size: 10px;
+    font-size: 16px;
 }
+
+/* SCREEN */
+@media screen and (max-width:768px){
+    .About {
+        display: inline;
+        align-items: center;
+        align-content: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-align-items: flex-start;
+        -webkit-justify-content: center;
+    }
+    .About-photo-wrapper {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .About-text-wrapper {
+        padding: 2px;
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+/* MOBILE */
+/* @media (min-width:480px) and (max-width:768px){
+    h1 {
+        font-size: 100px;
+        line-height: 80px;
+        margin: 0;
+        padding: 0;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 13px;
+    }
+} */
+
+ /* COMPUTER */
+/* @media (min-width:768px) and (max-width:1024px){
+    .About-photo-wrapper {
+        width: 50%;
+    }
+    .About-photo-img {
+        width: 100%;
+    }
+} */
