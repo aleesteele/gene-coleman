@@ -1,55 +1,155 @@
 [
     {
-        "url": "https://s3.amazonaws.com/gene-coleman/world+trade+center.jpg",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/world+trade+center.jpg",
+        "lowDef": "",
         "caption": "World Trade Center, 2000",
         "location": "",
         "youtube": ""
     },
     {
-        "url": "https://s3.amazonaws.com/gene-coleman/McSoreley_s+1.jpg",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/McSoreley_s+1.jpg",
+        "lowDef": "",
         "caption": "McSorley's, 1971",
         "location": "",
         "youtube": ""
     },
     {
-        "url": "https://s3.amazonaws.com/gene-coleman/Astor+Place%2C+The+Alamo%2C+1969.jpg",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Astor+Place%2C+The+Alamo%2C+1969.jpg",
+        "lowDef": "",
         "caption": "The Alamo, 1969",
         "location": "",
         "youtube": ""
     },
     {
-        "url": "https://s3.amazonaws.com/gene-coleman/taxi+5th+avenue+(2).jpg",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/taxi+5th+avenue+(2).jpg",
+        "lowDef": "",
         "caption": "Taxi, 5th Avenue, 1969",
         "location": "",
         "youtube": ""
     },
     {
-        "url": "https://s3.amazonaws.com/gene-coleman/Soho+Store+3+dresses.jpg",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Soho+Store+3+dresses.jpg",
+        "lowDef": "",
         "caption": "Soho, 3 Dresses",
         "location": "",
         "youtube": ""
     },
     {
-        "url": "https://s3.amazonaws.com/gene-coleman/Upholstery+Owner%2C+Bleecker+Street.jpg",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Upholstery+Owner%2C+Bleecker+Street.jpg",
+        "lowDef": "",
         "caption": "Upholstery Owner, Bleecker Street",
         "location": "",
         "youtube": ""
     },
     {
-        "url": "https://s3.amazonaws.com/gene-coleman/Hell_s+Kitchen+Barber+Shop.jpg",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Hell_s+Kitchen+Barber+Shop.jpg",
+        "lowDef": "",
         "caption": "Hell's Kitchen, Barber Shop",
         "location": "",
         "youtube": ""
     },
     {
-        "url": "https://s3.amazonaws.com/gene-coleman/Central+Park+South%2C+1974.jpg",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Central+Park+South%2C+1974.jpg",
+        "lowDef": "",
         "caption": "Central Park South, 1974",
         "location": "",
         "youtube": ""
     },
     {
-        "url": "https://s3.amazonaws.com/gene-coleman/Canal+Street.+1995.jpg",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Canal+Street.+1995.jpg",
+        "lowDef": "",
         "caption": "Canal Street, 1995",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/central+park+4+m3n.jpg",
+        "lowDef": "",
+        "caption": "",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Yorkville%2C+1970.jpg",
+        "lowDef": "",
+        "caption": "Yorkville, 1970",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Upper+Wesr+Side.+Broadway.+1986.jpg",
+        "lowDef": "",
+        "caption": "Upper West Side, Broadway, 1986",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Upper+East+Side.+1980.jpg",
+        "lowDef": "",
+        "caption": "Upper East Side, 1980",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Upper+East+Side+Thrift+Shop.jpg",
+        "lowDef": "",
+        "caption": "Upper East Side Thrift Shop",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "",
+        "lowDef": "",
+        "caption": "",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "",
+        "lowDef": "",
+        "caption": "",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "",
+        "lowDef": "",
+        "caption": "",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "",
+        "lowDef": "",
+        "caption": "",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "",
+        "lowDef": "",
+        "caption": "",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "",
+        "lowDef": "",
+        "caption": "",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "",
+        "lowDef": "",
+        "caption": "",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "",
+        "lowDef": "",
+        "caption": "",
         "location": "",
         "youtube": ""
     }
