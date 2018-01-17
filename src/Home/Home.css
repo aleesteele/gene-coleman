@@ -35,10 +35,11 @@ iframe {
     padding-right: 10px;
     padding-left: 10px; */
 }
+
 /* MEDIA QUERIES */
 h1 {
-    font-size: 150px;
-    line-height: 120px;
+    font-size: 100px;
+    line-height: 80px;
     margin: 0;
     padding: 0;
 }
@@ -52,8 +53,8 @@ h3 {
 /* SCREEN */
 @media screen and (max-width:480px){
     h1 {
-        font-size: 50px;
-        line-height: 40px;
+        font-size: 40px;
+        line-height: 30px;
         margin: 0;
         padding: 0;
     }
@@ -68,8 +69,8 @@ h3 {
 /* MOBILE */
 @media (min-width:480px) and (max-width:768px){
     h1 {
-        font-size: 100px;
-        line-height: 80px;
+        font-size: 70px;
+        line-height: 60px;
         margin: 0;
         padding: 0;
     }
@@ -83,8 +84,8 @@ h3 {
 
 @media (min-width:768px) and (max-width:1024px){
     h1 {
-        font-size: 150px;
-        line-height: 120px;
+        font-size: 100px;
+        line-height: 80px;
         margin: 0;
         padding: 0;
     }
