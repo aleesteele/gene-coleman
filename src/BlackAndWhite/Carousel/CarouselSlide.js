@@ -11,7 +11,7 @@ class CarouselSlide extends Component {
                         <h2 className="carousel-slide__caption">{this.props.slide.caption}</h2>
                     </div>
                     <div className="carousel-slide__content">
-                        <img className="carousel-slide__img" src={this.props.slide.lowDef} alt={this.props.slide.caption}/>
+                        <img className="carousel-slide__img" src={this.props.slide.highDef} alt={this.props.slide.caption}/>
                     </div>
                 </div>
             </div>

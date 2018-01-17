@@ -6,8 +6,8 @@ class DearNewYorkCity extends Component {
         console.log('inside DearNewYorkCity component');
         return (
             <div className="DearNewYorkCity">
-                <p>This is where Dear New York Series will go...</p>
-                
+                <p>Coming soon...</p>
+
             </div>
         );
     }
