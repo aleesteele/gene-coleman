@@ -18,26 +18,14 @@
         "youtube": ""
     },
     {
-        "url": "https://s3.amazonaws.com/gene-coleman/Slides-NYCityFlowers-003.jpg",
-        "caption": "",
-        "location": "DELETE THIS",
-        "youtube": ""
-    },
-    {
         "url": "https://s3.amazonaws.com/gene-coleman/Slides-NYCityFlowers-004.jpg",
-        "caption": "Picking up Trash, Greenwich Avenue, 2000",
+        "caption": "Greenwich Avenue, 2000",
         "location": "",
         "youtube": ""
     },
     {
         "url": "https://s3.amazonaws.com/gene-coleman/Slides-NYCityFlowers-005.jpg",
         "caption": "Greenwich Village, 1983",
-        "location": "",
-        "youtube": ""
-    },
-    {
-        "url": "https://s3.amazonaws.com/gene-coleman/Slides-NYCityFlowers-006.jpg",
-        "caption": "DELETE",
         "location": "",
         "youtube": ""
     },
@@ -97,7 +85,7 @@
     },
     {
         "url": "https://s3.amazonaws.com/gene-coleman/Slides-People-B-016.jpg",
-        "caption": "Doppleganger, 7th Avenue, 1985",
+        "caption": "7th Avenue, 1985",
         "location": "",
         "youtube": ""
     },
@@ -158,36 +146,6 @@
     {
         "url": "https://s3.amazonaws.com/gene-coleman/Slides-Sleeve01-006.jpg",
         "caption": "6th Avenue, 1985",
-        "location": "",
-        "youtube": ""
-    },
-    {
-        "url": "https://s3.amazonaws.com/gene-coleman/Slides-Sleeve01-007.jpg",
-        "caption": "DELETE",
-        "location": "",
-        "youtube": ""
-    },
-    {
-        "url": "https://s3.amazonaws.com/gene-coleman/Slides-Sleeve01-008.jpg",
-        "caption": "DELETE",
-        "location": "",
-        "youtube": ""
-    },
-    {
-        "url": "https://s3.amazonaws.com/gene-coleman/Slides-Sleeve01-009.jpg",
-        "caption": "DELETE",
-        "location": "",
-        "youtube": ""
-    },
-    {
-        "url": "https://s3.amazonaws.com/gene-coleman/Slides-Sleeve01-010.jpg",
-        "caption": "DELETE",
-        "location": "",
-        "youtube": ""
-    },
-    {
-        "url": "https://s3.amazonaws.com/gene-coleman/Slides-Sleeve01-011.jpg",
-        "caption": "DELETE",
         "location": "",
         "youtube": ""
     },

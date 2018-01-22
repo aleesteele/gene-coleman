@@ -32,6 +32,12 @@
     font-size: 14px;
 }
 
+.About-nav-img {
+    max-width: 50px;
+    max-height: 100%;
+}
+
+
 /* SCREEN */
 @media screen and (max-width:768px){
     .About {

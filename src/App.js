@@ -32,18 +32,21 @@ class App extends Component {
                         <div className="App-nav-link"><Link to="/about"><h2>About</h2></Link></div>
                         <div className="App-nav-link"><Link to="/b&w"><h2>Black & White</h2></Link></div>
                         <div className="App-nav-link"><Link to="/color"><h2>Color</h2></Link></div>
-                        <div className="App-nav-link"><Link to="/dearnyc"><h2>Dear NYC</h2></Link></div>
+                        <div className="App-nav-link"><Link to="/dearnyc"><h2>Dear New York</h2></Link></div>
                     </div>
                 </header>
                 <div className="App-content">
                     { children }
                 </div>
                 <footer className="App-footer">
-                    Built by <Link to="http://aleesteele.com">Anne Lee Steele</Link>
+                    Built by <a href="http://aleesteele.com">Anne Lee Steele</a>
                 </footer>
             </div>
         );
     }
 }
 
+//instagram icon
+//<text x="0" y="115" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by Three Six Five</text><text x="0" y="120" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text>
+//
 export default App;
