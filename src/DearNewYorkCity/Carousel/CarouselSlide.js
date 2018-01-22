@@ -3,7 +3,7 @@ import './Carousel.css';
 
 class CarouselSlide extends Component {
     render() {
-        console.log('props inside Carousel slide:', this.props.slide.caption);
+        // console.log('props inside Carousel slide:', this.props.slide.caption);
         return (
             <div className="carousel-slide">
                 <div className="carousel-slide-wrapper">

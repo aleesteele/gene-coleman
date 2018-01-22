@@ -25,7 +25,6 @@
     padding-left: 5px;
     padding-right: 5px;
     max-height: 90vw;
-    overflow: hidden;
 }
 
 .About-text-p {
@@ -66,6 +65,10 @@
     }
     .About-text-p {
         font-size: 10px;
+    }
+    .About-nav-img {
+        max-width: 25px;
+        max-height: 100%;
     }
 }
 
