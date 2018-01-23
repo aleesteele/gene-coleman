@@ -6,8 +6,8 @@ class Home extends Component {
         super(props);
 
         this.state = {
-            video: 'hGyydkPwUMc',
-            autoplay: 0,
+            video: 'e5G19pJdeqI',
+            autoplay: 1,
             rel: 0,
             modest: 1
         }

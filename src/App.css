@@ -38,12 +38,10 @@
 
 .App-footer {
     bottom: 5px;
-    position: absolute;
     width: 100%;
     font-size: 10px;
-    text-align: right;
-
-
+    float: inline-end;
+    position: relative;
 }
 
 a:hover {

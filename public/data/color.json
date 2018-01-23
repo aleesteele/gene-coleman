@@ -1,5 +1,11 @@
 [
     {
+        "url": "https://s3.amazonaws.com/gene-coleman/Slides-Sleeve01-002.jpg",
+        "caption": "Union Square, 1998",
+        "location": "",
+        "youtube": ""
+    },
+    {
         "url": "https://s3.amazonaws.com/gene-coleman/Slides-NYCityFlowers-018.jpg",
         "caption": "East Village, 1998",
         "location": "",
@@ -116,12 +122,6 @@
     {
         "url": "https://s3.amazonaws.com/gene-coleman/Slides-Sleeve01-001.jpg",
         "caption": "Greenwich Village, 1987",
-        "location": "",
-        "youtube": ""
-    },
-    {
-        "url": "https://s3.amazonaws.com/gene-coleman/Slides-Sleeve01-002.jpg",
-        "caption": "Union Square, 1998",
         "location": "",
         "youtube": ""
     },
