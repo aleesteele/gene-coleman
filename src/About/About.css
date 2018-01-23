@@ -1,9 +1,14 @@
 .About {
-    display: flex;
     /* position: absolute; */
     max-height: 100%;
     width: 100%;
+    display: flex;
 }
+
+/* .About-total-wrapper {
+    max-height: 100%;
+    width: 100%;
+} */
 
 .About-photo-wrapper {
     width: 50%;
