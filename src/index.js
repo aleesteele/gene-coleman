@@ -11,6 +11,7 @@ import Home from './Home/Home';
 import About from './About/About';
 import BlackAndWhite from './BlackAndWhite/BlackAndWhite';
 import Color from './Color/Color';
+import ColorSlide from './Color/Carousel/ColorSlide'
 import DearNewYorkCity from './DearNewYorkCity/DearNewYorkCity';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -25,6 +26,7 @@ router = (<Provider store={store}>
             <Route path="/b&w" component={BlackAndWhite}/>
             <Route path="/color" component={Color}/>
             <Route path="/dearnyc" component={DearNewYorkCity}/>
+            <Route path="/color-slide" component={ColorSlide}/>
         </Route>
     </Router>
 </Provider>)

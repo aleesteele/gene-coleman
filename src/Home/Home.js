@@ -24,14 +24,14 @@ class Home extends Component {
         return (
             <div className="Home">
                 <div className="Home-wrapper">
-                        <iframe
-                            className="player"
-                            type="text/html"
-                            width="100%"
-                            height="100%"
-                            src={videoSrc}
-                            frameBorder="0"
-                        />
+                    <iframe
+                        className="player"
+                        type="text/html"
+                        width="100%"
+                        height="100%"
+                        src={videoSrc}
+                        frameBorder="0"
+                    />
                 </div>
             </div>
         );

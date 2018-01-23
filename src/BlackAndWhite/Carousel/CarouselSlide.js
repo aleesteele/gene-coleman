@@ -3,7 +3,27 @@ import './Carousel.css';
 
 class CarouselSlide extends Component {
     render() {
-        // console.log('props inside Carousel slide:', this.props.slide.caption);
+        if (!this.props.slide.caption) {
+            return (
+                <div className="loading">
+                    <img src="loading.gif"/>
+                </div>
+            )
+        }
+        if (!this.props.slide.lowDef) {
+            return (
+                <div className="loading">
+                    <img src="loading.gif"/>
+                </div>
+            )
+        }
+        if (!this.props.slide) {
+            return (
+                <div className="loading">
+                    <img src="loading.gif"/>
+                </div>
+            )
+        }
         return (
             <div className="carousel-slide">
                 <div className="carousel-slide-wrapper">
@@ -11,7 +31,7 @@ class CarouselSlide extends Component {
                         <h2 className="carousel-slide__caption">{this.props.slide.caption}</h2>
                     </div>
                     <div className="carousel-slide__content">
-                        <img className="carousel-slide__img" src={this.props.slide.highDef} alt={this.props.slide.caption}/>
+                        <img className="carousel-slide__img" src={this.props.slide.lowDef} alt={this.props.slide.caption}/>
                     </div>
                 </div>
             </div>

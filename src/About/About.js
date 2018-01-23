@@ -11,9 +11,9 @@ class About extends Component {
                 </div>
                 <div className="About-text-wrapper">
                     <p className="About-text-p">
-                        (1937 - Present)
+                        (October 16, 1937 - Present)
                         <br/><br/>
-                        Gene Coleman was born on October 16, 1937 and raised on a wheat farm in Western Nebraska. At 17, he recieved a scholarship to study classical piano at the University of Wyoming, but at the insistence of his parents he went to BYU in Provo, Utah instead. At 19, however, he dropped out and moved to New York. After seeing James Dean in "East of Eden", he was amongst the thousands of others who came to the city to study theatre. Gene studied with Uta Hagen and later won the Barter award in 1961, picked by Hume Cronyn to do a season at the Barter theatre in Abingdon, VA.
+                        Gene Coleman was born and raised on a wheat farm in Western Nebraska. At 17, he received a scholarship to study classical piano at the University of Wyoming, but at the insistence of his Mormon family went to Provo, Utah instead. At 19, however, Gene dropped out of BYU and moved to New York. After seeing James Dean in "East of Eden", he was amongst the thousands of others who came to the city to study theatre. Gene studied with Uta Hagen and later won the Barter award in 1961, picked by Hume Cronyn to do a season at the Barter theatre in Abingdon, VA.
                         <br/><br/>
                         Unfortunately, alcohol entered the picture (though he's been sober since 1983), and it was hard to parlay a career in theatre. After he fell in love and got married in 1969, Gene felt that he needed to make a proper living. He bought a Nikon F and starting photographing actor's headshots and theater productions. At the same time, he started shooting street photography. His first photo was of a man sitting under the Alamo sculpture, reading about the moon landing in 1969. After developing that roll, he was hooked. Later, Gene became a studio photographer, mostly doing editorial still lifes for magazines. On his off hours, he would go "hunting" for street photographs, which became a passion. He avidly documented New York throughout the 70s, 80s, 90s and early 2000s.
                         <br/><br/>

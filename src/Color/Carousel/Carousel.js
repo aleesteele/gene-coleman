@@ -7,10 +7,8 @@ import './Carousel.css';
 class Carousel extends Component {
     constructor(props) {
         super(props);
-
-        this.state = {
-            
-        };
+        this.state = { };
+        this.handleClick = this.handleClick.bind(this);
     }
     componentDidMount() {
         this.loadMore();
@@ -40,7 +38,13 @@ class Carousel extends Component {
             this.setState({isLoading: false, error})
         })
     }
-
+    handleClick(e){
+        console.log('this is the props: ', this.props.slide);
+        this.setState({
+            url: this.props.slide.url,
+            caption: this.props.slide.caption
+        })
+    }
     render() {
         // console.log('state inside Carousel: ', this.state)
         // console.log('props inside Carousel: ', this.props);
@@ -53,8 +57,9 @@ class Carousel extends Component {
                     hasMore={!!this.state.cursor}
                     onLoadMore={this.loadMore}> */}
                     <div className="carousel__slides">
-                        {this.props.slides.map((slide, index) => <CarouselSlide slide={slide}/>)}
+                        {this.props.slides.map((slide, index) => <CarouselSlide slide={slide} onClick={this.handleClick}/>)}
                     </div>
+
                 {/* </InfiniteScroll> */}
                 {/* {this.state.isLoading && (
                     <MyLoadingState />

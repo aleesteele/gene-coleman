@@ -1,155 +1,379 @@
 [
     {
         "highDef": "https://s3.amazonaws.com/gene-coleman/world+trade+center.jpg",
-        "lowDef": "",
-        "caption": "World Trade Center, 2000",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/world+trade+center-min.jpg",
+        "caption": "Bowling Green, 2000",
         "location": "",
         "youtube": ""
     },
     {
         "highDef": "https://s3.amazonaws.com/gene-coleman/McSoreley_s+1.jpg",
-        "lowDef": "",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/McSoreley_s+1-min.jpg",
         "caption": "McSorley's, 1971",
         "location": "",
         "youtube": ""
     },
     {
         "highDef": "https://s3.amazonaws.com/gene-coleman/Astor+Place%2C+The+Alamo%2C+1969.jpg",
-        "lowDef": "",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Astor+Place%2C+The+Alamo%2C+1969-min.jpg",
         "caption": "The Alamo, 1969",
         "location": "",
         "youtube": ""
     },
     {
         "highDef": "https://s3.amazonaws.com/gene-coleman/taxi+5th+avenue+(2).jpg",
-        "lowDef": "",
-        "caption": "Taxi, 5th Avenue, 1969",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/taxi+5th+avenue+(2)-min.jpg",
+        "caption": "5th Avenue, 1969",
         "location": "",
         "youtube": ""
     },
     {
         "highDef": "https://s3.amazonaws.com/gene-coleman/Soho+Store+3+dresses.jpg",
-        "lowDef": "",
-        "caption": "Soho, 3 Dresses",
-        "location": "",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Soho+Store+3+dresses-min.jpg",
+        "caption": "Soho, 1992",
+        "location": "THIS NEEDS A YEAR",
         "youtube": ""
     },
     {
         "highDef": "https://s3.amazonaws.com/gene-coleman/Upholstery+Owner%2C+Bleecker+Street.jpg",
-        "lowDef": "",
-        "caption": "Upholstery Owner, Bleecker Street",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Upholstery+Owner%2C+Bleecker+Street-min.jpg",
+        "caption": "Bleecker Street, 1970",
         "location": "",
         "youtube": ""
     },
     {
         "highDef": "https://s3.amazonaws.com/gene-coleman/Hell_s+Kitchen+Barber+Shop.jpg",
-        "lowDef": "",
-        "caption": "Hell's Kitchen, Barber Shop",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Hell_s+Kitchen+Barber+Shop-min.jpg",
+        "caption": "Hell's Kitchen, 1982",
         "location": "",
         "youtube": ""
     },
     {
         "highDef": "https://s3.amazonaws.com/gene-coleman/Central+Park+South%2C+1974.jpg",
-        "lowDef": "",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Central+Park+South%2C+1974-min.jpg",
         "caption": "Central Park South, 1974",
         "location": "",
         "youtube": ""
     },
     {
         "highDef": "https://s3.amazonaws.com/gene-coleman/Canal+Street.+1995.jpg",
-        "lowDef": "",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Canal+Street.+1995-min.jpg",
         "caption": "Canal Street, 1995",
         "location": "",
         "youtube": ""
     },
     {
         "highDef": "https://s3.amazonaws.com/gene-coleman/central+park+4+m3n.jpg",
-        "lowDef": "",
-        "caption": "",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/central+park+4+m3n-min.jpg",
+        "caption": "Central Park, 1972",
         "location": "",
         "youtube": ""
     },
     {
         "highDef": "https://s3.amazonaws.com/gene-coleman/Yorkville%2C+1970.jpg",
-        "lowDef": "",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Yorkville%2C+1970-min.jpg",
         "caption": "Yorkville, 1970",
         "location": "",
         "youtube": ""
     },
     {
         "highDef": "https://s3.amazonaws.com/gene-coleman/Upper+Wesr+Side.+Broadway.+1986.jpg",
-        "lowDef": "",
-        "caption": "Upper West Side, Broadway, 1986",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Upper+Wesr+Side.+Broadway.+1986-min.jpg",
+        "caption": "Upper West Side, 1986",
         "location": "",
         "youtube": ""
     },
     {
         "highDef": "https://s3.amazonaws.com/gene-coleman/Upper+East+Side.+1980.jpg",
-        "lowDef": "",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Upper+East+Side.+1980-min.jpg",
         "caption": "Upper East Side, 1980",
         "location": "",
         "youtube": ""
     },
     {
         "highDef": "https://s3.amazonaws.com/gene-coleman/Upper+East+Side+Thrift+Shop.jpg",
-        "lowDef": "",
-        "caption": "Upper East Side Thrift Shop",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Upper+East+Side+Thrift+Shop-min.jpg",
+        "caption": "Upper East Side",
         "location": "",
         "youtube": ""
     },
     {
-        "highDef": "",
-        "lowDef": "",
-        "caption": "",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/2nd+Avenue+Bar%2C+4+men.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/2nd+Avenue+Bar%2C+4+men-min.jpg",
+        "caption": "2nd Avenue",
         "location": "",
         "youtube": ""
     },
     {
-        "highDef": "",
-        "lowDef": "",
-        "caption": "",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/2nd+Avenue%2C+1970.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/2nd+Avenue%2C+1970-min.jpg",
+        "caption": "2nd Avenue, 1970",
         "location": "",
         "youtube": ""
     },
     {
-        "highDef": "",
-        "lowDef": "",
-        "caption": "",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/2nd+Avenue%2C+Cleaners.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/2nd+Avenue%2C+Cleaners-min.jpg",
+        "caption": "2nd, Avenue",
         "location": "",
         "youtube": ""
     },
     {
-        "highDef": "",
-        "lowDef": "",
-        "caption": "",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/3rd+Avenue%2C+God+Delivers.+1997.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/3rd+Avenue%2C+God+Delivers.+1997-min.jpg",
+        "caption": "3rd Avenus, 1997",
         "location": "",
         "youtube": ""
     },
     {
-        "highDef": "",
-        "lowDef": "",
-        "caption": "",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/5th+Avenue%2C+1978.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/5th+Avenue%2C+1978-min.jpg",
+        "caption": "5th Avenue, 1978",
         "location": "",
         "youtube": ""
     },
     {
-        "highDef": "",
-        "lowDef": "",
-        "caption": "",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/6th+Avenue.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/6th+Avenue-min.jpg",
+        "caption": "6th Avenue",
         "location": "",
         "youtube": ""
     },
     {
-        "highDef": "",
-        "lowDef": "",
-        "caption": "",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/8th+Avenue%2C+1988.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/8th+Avenue%2C+1988-min.jpg",
+        "caption": "8th Avenue, 1988",
         "location": "",
         "youtube": ""
     },
     {
-        "highDef": "",
-        "lowDef": "",
-        "caption": "",
+        "highDef": "https://s3.amazonaws.com/gene-coleman/9th+Avenue%2C+1997.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/9th+Avenue%2C+1997-min.jpg",
+        "caption": "9th Avenue, 1997",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/11th+Avenue%2C+1999.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/11th+Avenue%2C+1999-min.jpg",
+        "caption": "11th Avenue, 1999",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/12th+Street%2C+masks.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/12th+Street%2C+masks-min.jpg",
+        "caption": "12th Street",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/14th+Street+Bar.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/14th+Street+Bar-min.jpg",
+        "caption": "14th Street",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/16th+Street.+Lola%2C+1985.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/16th+Street.+Lola%2C+1985-min.jpg",
+        "caption": "16th Street, 1985",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/19th+street+bed+in+dumpster.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/19th+street+bed+in+dumpster-min.jpg",
+        "caption": "19th Street",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/24th+Street%2C+Chelsea%2C+1986.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/24th+Street%2C+Chelsea%2C+1986-min.jpg",
+        "caption": "Chelsea, 1986",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/39th+Street+and+9th+Avenue%2C+1998.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/39th+Street+and+9th+Avenue%2C+1998-min.jpg",
+        "caption": "39th Street, 1998",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/42nd+street%2C+enter+here.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/42nd+street%2C+enter+here-min.jpg",
+        "caption": "42nd Street",
+        "location": "THIS NEEDS A YEAR",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/59th+Street%2C+Ophelie%2C+1978.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/59th+Street%2C+Ophelie%2C+1978-min.jpg",
+        "caption": "59th Street, 1978",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Avenue+of+Americas%2C+Thugs+Don_t+Scare+Me%2C+1987.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Avenue+of+Americas%2C+Thugs+Don_t+Scare+Me%2C+1987-min.jpg",
+        "caption": "Avenue of the Americas, 1987",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/B.+Altman_s%2C+33rd+Street.+1972.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/B.+Altman_s%2C+33rd+Street.+1972-min.jpg",
+        "caption": "33rd Street, 1972",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Bergdorf+Goodman+1970.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Bergdorf+Goodman+1970-min.jpg",
+        "caption": "Bergdorf Goodman, 1970",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Bergorf+Goodman%2C+1987.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Bergorf+Goodman%2C+1987-min.jpg",
+        "caption": "Bergdorf Goodman, 1987",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Brooklyn+Bridge%2C+1999.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Brooklyn+Bridge%2C+1999-min.jpg",
+        "caption": "Brooklyn Bridge, 1999",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Crossing+Waverly+Street.+1998.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Crossing+Waverly+Street.+1998-min.jpg",
+        "caption": "Waverly Street, 1998",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Doorman+with+keys%2C+Upper+East+Side+(1).jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Doorman+with+keys%2C+Upper+East+Side+(1)-min.jpg",
+        "caption": "Upper East Side",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/East+27th+Street%2C+Checker+Taxi%2C+1985.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/East+27th+Street%2C+Checker+Taxi%2C+1985-min.jpg",
+        "caption": "East 27th Street, 1985",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Fifth+Avenue%2C+1995.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Fifth+Avenue%2C+1995-min.jpg",
+        "caption": "5th Avenue, 1995",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Greenwich+Village+Newspaper+Vendor+1970.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Greenwich+Village+Newspaper+Vendor+1970-min.jpg",
+        "caption": "Greenwich Village, 1970",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Hardware+Store+on+the+Bowery.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Hardware+Store+on+the+Bowery-min.jpg",
+        "caption": "The Bowery, 1982",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Hell_s+Kitchen%2C+1970.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Hell_s+Kitchen%2C+1970-min.jpg",
+        "caption": "Hell's Kitchen, 1970",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Hester+Street.+1973.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Hester+Street.+1973-min.jpg",
+        "caption": "Hester Street, 1973",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/I+Love+Monica%2C+42nd+Street.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/I+Love+Monica%2C+42nd+Street-min.jpg",
+        "caption": "42nd Street, 1971",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Katz+Bros.+27th+St..jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Katz+Bros.+27th+St.-min.jpg",
+        "caption": "Houston Street, 1989",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Lower+Broadway+1998.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Lower+Broadway+1998-min.jpg",
+        "caption": "Lower Broadway, 1998",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Orchard+Street.+1989.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Orchard+Street.+1989-min.jpg",
+        "caption": "Orchard Street, 1989",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/OTB+1985.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/OTB+1985-min.jpg",
+        "caption": "OTB, 1985",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/P.J.Clarke_s%2C+1976.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/P.J.Clarke_s%2C+1976-min.jpg",
+        "caption": "P.J. Clarke's, 1976",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Soho%2C+2000%2C+Opening+2001.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Soho%2C+2000%2C+Opening+2001-min.jpg",
+        "caption": "Soho, 2000",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Synagogue+on+23rd+Street.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Synagogue+on+23rd+Street-min.jpg",
+        "caption": "23rd Street",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Thr+Bowery.+1979.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Thr+Bowery.+1979-min.jpg",
+        "caption": "The Bowery, 1979",
+        "location": "",
+        "youtube": ""
+    },
+    {
+        "highDef": "https://s3.amazonaws.com/gene-coleman/Tiffany_s+Fur+Coats+1978.jpg",
+        "lowDef": "https://s3.amazonaws.com/gene-coleman/Tiffany_s+Fur+Coats+1978-min.jpg",
+        "caption": "Tiffany's, 1978",
         "location": "",
         "youtube": ""
     }
