@@ -39,7 +39,7 @@ class App extends Component {
                     { children }
                 </div>
                 <footer className="App-footer">
-                    Built by <a href="http://aleesteele.com">Anne Lee Steele</a>
+                    Built by <a href="http://www.aleesteele.com">Anne Lee Steele</a>
                 </footer>
             </div>
         );
